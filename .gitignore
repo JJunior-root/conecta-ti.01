@@ -1,0 +1,39 @@
+# Logs
+*.log
+
+# Java / Gradle
+.gradle/
+build/
+target/
+out/
+.jdk/
+
+# Node / Vite / Nitro
+node_modules/
+.output/
+.vercel/
+.wrangler/
+dist/
+
+# IDE / OS
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+
+# Env files
+.env
+.env.*
+!.env.example
+
+# Auditoria: cache local e capturas grandes
+auditoria/.npm-cache/
+auditoria/screenshots/
+
+# Arquivos compactados e possíveis segredos locais
+*.tar.gz
+*.pem
+*.key
+*credentials*.json
+*secrets*.json
